@@ -1,0 +1,21 @@
+{
+    "name": "catppuccin-vscode-theme",
+    "displayName": "catppuccin-vscode-theme",
+    "description": "A theme based on the wonderful Catppuccin color scheme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "catppuccin-vscode-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/catppuccin-vscode-theme.json"
+            }
+        ]
+    }
+}
